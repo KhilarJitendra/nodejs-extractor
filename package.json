@@ -1,0 +1,31 @@
+{
+  "name": "vercel-excel-extractor",
+  "version": "1.0.0",
+  "description": "node express testing",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "fs-extra": "^11.1.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^112.0.0",
+    "jsonfile": "^6.1.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "xlsx": "^0.18.5"
+  }
+}
